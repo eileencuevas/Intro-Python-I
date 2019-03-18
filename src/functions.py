@@ -2,6 +2,7 @@
 
 # YOUR CODE HERE
 
+
 def isEven(num):
     return num % 2 == 0
 
@@ -13,11 +14,13 @@ num = int(num)
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
 # YOUR CODE HERE
+
+
 def isEvenOrOdd(num):
     if isEven(num):
-         return print('Even!')
+        return print('Even!')
     else:
         return print('Odd')
 
-isEvenOrOdd(num)
 
+isEvenOrOdd(num)
